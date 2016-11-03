@@ -57,12 +57,16 @@ a, a:hover {text-decoration: none}
 
 
 .text {
-    position: absolute;
-    top: 30%;
-    left: 35%;
+    max-width: 700px;
+    margin: auto;
     color: white;
     font-size: 500%;
     font-family:  Century Gothic;
+}
+.text p {
+    position: absolute;
+    top: 30%;
+    
 }
 
 
@@ -118,7 +122,6 @@ padding-bottom: 3px;
 
 
 .more {
-    margin-top: 70px;
     max-width: 1150px;
     margin: auto;
 }
