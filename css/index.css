@@ -40,19 +40,59 @@ a, a:hover {text-decoration: none}
 
 
 .background img {
-    position:relative;
+    position: inherit;
     width:100%;
     top:0px;
     left:0px;
 }
 
-
-
+.background2 img {
+    position: inherit;
+    width:100%;
+    top:0px;
+    left:0px;
+}
 #logo img {
     width: 20%;
     position: absolute;
     top: 0px;
     left: 40%;
+}
+
+@media (min-width: 10px) and (max-width: 1000px) {
+    .background img {
+        display: none;
+    }
+    #logo img {
+    width: 70%;
+    left: 15%;
+    }
+    .text {
+    position: absolute;
+    top: 650px;
+    left: 12%;
+    width: 76%;
+    }
+    .text p {
+        font-size: 109%;
+    
+    }
+    .text2 {
+        position: absolute;
+        
+        font-size: 300%;
+        
+    }
+    .text2 p {
+        
+        margin: auto;
+        position: absolute;
+    }
+}
+@media (min-width: 1001px) {
+    .background2 img {
+        display: none;
+    }
 }
 
 
@@ -68,10 +108,6 @@ a, a:hover {text-decoration: none}
     margin-top: -15%;
 }
 
-
-
-
-
 .text2 p {
     padding: 15px 40px;
     width: 40%;
@@ -81,7 +117,7 @@ a, a:hover {text-decoration: none}
     text-align: center;
     position: absolute;
     margin-top: -10%;
-    margin-left: 30%;
+    margin-left: 29%;
     background: rgb(32, 31, 45);
     opacity: 0.7;
 }
